@@ -1,7 +1,7 @@
 <?php
 require_once "../resources/functions.php";
 $errors = '';
-$myemail = 'kapiton_212@hotmail.com';//<-----Put Your email address here.
+$myemail = '';//<-----Put Your email address here.
 if(empty($_POST['name'])  || 
    empty($_POST['email']) ||
     empty($_POST['subject']) ||
