@@ -450,7 +450,7 @@ function send_message() {
     if(isset($_POST['submit'])) {
 
         $errors = '';
-        $myemail = 'shresk03@myunitec.ac.nz';//<-----Put Your email address here.
+        $myemail = 'your_email';//<-----Put Your email address here.
         if(empty($_POST['name'])  ||
             empty($_POST['email']) ||
             empty($_POST['subject']) ||
