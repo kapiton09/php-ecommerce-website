@@ -535,7 +535,7 @@ function send_email() {
             $errors .=  "Email has already been registered. Please use another email!";
         }
 
-        $email_address = "shresk03@myunitec.ac.nz";
+        $email_address = your@email.com";
 
         if( empty($errors))
         {
